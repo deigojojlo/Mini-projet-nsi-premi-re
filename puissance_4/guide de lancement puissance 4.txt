@@ -1,0 +1,47 @@
+puissance 4 shell:
+peut être executer seule
+
+puissance 4 list avec interface graphique:
+prend plus de temps mais calcul le chemin lui meme
+
+puissance 4 interface graphique:
+il faut lié car le calcul du chemin est defectueux sur ce code
+l.261 le chemin d'acces au logo
+l.295 le chemin d'acces à la photo capture-min
+l.296 le chemin d'acces à la photo capture_r_min
+l.297 le chemin d'acces à la photo capture_j_min
+
+puissance 4 interface graphique avec bot
+il faut lié car le calcul du chemin est defectueux sur ce code
+l.252 le chemin d'acces au logo
+l.287 le chemin d'acces à la photo capture-min
+l.288 le chemin d'acces à la photo capture_r_min
+l.289 le chemin d'acces à la photo capture_j_min
+
+puissance 4 interface graphique avec bot invincible
+il faut lié car le calcul du chemin est defectueux sur ce code
+l.665 le chemin d'acces au logo
+l.701 le chemin d'acces à la photo capture-min
+l.702 le chemin d'acces à la photo capture_r_min
+l.703 le chemin d'acces à la photo capture_j_min
+
+j'ai pris en compte certaines de vos remarques sur ma dernière version
+pour d'autre je ne voyais pas comment faire 
+par exemples 
+pour les canvas
+les exec me permettent de creer dynamiquement mes images
+avec de ligne et deux boucles imbriqué l'une dans l'autre
+je créé 42 images 
+sans les exec pour cette partie la il y aura 42 * 2 lignes
+rien que pour les creers plus 42* 2 pour les actualiser 
+et 42 ligne pour les mettres sur la gille
+
+ce qui fait un total de 210 lignes à rédiger qui seront presque toute les memes
+je prefère donc utiliser la methode exec()
+
+
+
+
+
+
+@valentin Mouchès
